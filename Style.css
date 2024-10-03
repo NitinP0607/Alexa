@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofadi+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sofadi One", system-ui;
+}
+body{
+    width: 100%;
+    background-color: #060112;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#logo{
+    width: 40%;
+    padding: 25px;
+    border-radius: 30%;
+}
+h1{
+    color: aliceblue;
+    font-size: 45px;
+    
+}
+#name{
+    color: aqua;
+    font-size: 55px;
+    
+} 
+#va{
+    color: violet;
+    font-size: 55px;
+}
+#voice{
+    width: 250px;
+    height: 190px;
+    display: none;
+    border-radius: 50%;
+}
+#btn{
+    width: 30%;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgb(196, 1, 214), rgb(59, 11, 138));
+}
+#btn:hover{
+    box-shadow: 2px, 2px, 2px rgb(21, 145, 201), 2px, 2px, 2px rgb(201, 41, 116);
+    letter-spacing: 3px;
+}
+@media only screen and (max-width: 700px) {
+    #logo {
+        width: 75%;
+        padding: 20px;
+        border-radius: 30%;
+    }
+    #name{
+       
+    }
+    #btn{
+        width: 70%;
+    height: 50%;
+    font-size: 25px;
+    }
+    #btn:hover{
+        box-shadow: 2px, 2px, 2px rgb(21, 145, 201), 2px, 2px, 2px rgb(201, 41, 116);
+        letter-spacing: 3px;
+    }
+    h1{
+        padding: 30px;
+    }
+  }
